@@ -37,3 +37,6 @@ fr:
     first_one: "première clef"
     second_one: "deuxième clef"
     third_one: "troisième clef"
+  test:
+    submit: envoyer
+    cancel: annuler
