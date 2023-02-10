@@ -40,3 +40,6 @@ fr:
   test:
     submit: envoyer
     cancel: annuler
+  other_feat:
+    email: courriel
+    Adress: mon addresse
