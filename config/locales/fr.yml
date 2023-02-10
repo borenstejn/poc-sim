@@ -30,3 +30,4 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 fr:
   hello: "Bonjour le monde"
+  subtitle: "Il est petit le monde après tout"
