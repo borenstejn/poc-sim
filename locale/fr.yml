@@ -4,4 +4,8 @@ fr:
   subtitle: Il est petit le monde après tout
   content: petit texte
   hint: petit indice
+  new_keys:
+    first_one: première clef
+    second_one: deuxième clef
+    third_one: troisième clef
 ...

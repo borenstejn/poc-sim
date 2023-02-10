@@ -3,4 +3,9 @@ en:
   hello: Hello world
   subtitle: It's a small world after all
   content: small text
+  hint: small hint
+  new_keys:
+    first_one: first key
+    second_one: second key
+    third_one: third key
 ...
