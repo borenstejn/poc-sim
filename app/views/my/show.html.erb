@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <%= wicked_pdf_stylesheet_link_tag "pdf" -%>
+  <%= wicked_pdf_javascript_include_tag "number_pages" %>
+</head>
+<body onload='number_pages'>
+<div id="header">
+  <%= wicked_pdf_image_tag 'https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MPH13ref_VW_34FR+watch-45-alum-midnight-nc-8s_VW_34FR_WF_CO_GEO_FR+watch-face-44-nike-se-summitwhite_VW_34FR_WF_CO?wid=1400&hei=1400&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1660757970059%2C1661968921380%2C1661719023341' %>
+</div>
+<div id="content">
+  <%= yield %>
+</div>
+</body>
+</html>
